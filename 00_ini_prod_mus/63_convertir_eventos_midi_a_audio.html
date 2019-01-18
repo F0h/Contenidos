@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>6.3.: Convertir eventos MIDI a audio | Introducción a la Producción Musical </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Julio Benavides - Instituto Superior Orson Welles" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-22"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Introducción a la Producción Musical</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción a la Producción Musical</a></li>
+   <li><a href="s01_exploracin_del_aula_e_instalacin_del_programa.html" class="daddy">S01. Exploración del aula e instalación del programa</a>
+   <ul class="other-section">
+      <li><a href="01_el_aula_306.html" class="no-ch">01. El aula 306</a></li>
+      <li><a href="02_el_computador.html" class="no-ch">02. El computador</a></li>
+      <li><a href="03_los_interfaces_de_audio.html" class="no-ch">03. Los interfaces de audio</a></li>
+      <li><a href="04_el_audio_en_windows.html" class="no-ch">04. El audio en Windows</a></li>
+      <li><a href="05_el_controlador_midi.html" class="no-ch">05. El controlador MIDI</a></li>
+      <li><a href="06_instalacin_del_programa.html" class="no-ch">06. Instalación del programa</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="s02_puesta_en_marcha.html" class="current-page-parent daddy">S02. Puesta en marcha</a>
+   <ul>
+      <li><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="no-ch">Paso 0: Comprobar el funcionamiento del controlador MIDI</a></li>
+      <li><a href="paso_1_seleccionar_el_controlador_de_audio.html" class="no-ch">Paso 1: Seleccionar el controlador de audio</a></li>
+      <li><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="no-ch">Paso 2: Habilitar todos los interfaces de audio</a></li>
+      <li><a href="paso_3_para_cada_interfaz_de_audio_habilitar_toda_entrada_y_salida.html" class="no-ch">Paso 3: Para cada interfaz de audio, habilitar toda entrada y salida</a></li>
+      <li><a href="paso_4_etiquetar_todas_las_entradas_y_salidas_que_existan.html" class="no-ch">Paso 4: Etiquetar todas las entradas y salidas que existan</a></li>
+      <li><a href="paso_5_seleccionar_puertos_midi_a_utilizar.html" class="no-ch">Paso 5: Seleccionar puertos MIDI a utilizar</a></li>
+      <li class="current-page-parent"><a href="paso_6_prueba_del_sistema.html" class="current-page-parent daddy">Paso 6: Prueba del sistema</a>
+      <ul>
+         <li><a href="61_insertar_un_sintetizador_virtual.html" class="no-ch">6.1.: Insertar un sintetizador virtual</a></li>
+         <li><a href="62_grabacin_de_eventos_midi.html" class="no-ch">6.2.: Grabación de eventos MIDI</a></li>
+         <li id="active"><a href="63_convertir_eventos_midi_a_audio.html" class="active no-ch">6.3.: Convertir eventos MIDI a audio</a></li>
+      </ul>
+      </li>
+      <li><a href="ejercicios_de_secuenciacin_1.html" class="no-ch">EJERCICIOS DE SECUENCIACIÓN 1</a></li>
+      <li><a href="ejemplo_de_solucin_y_variantes_0201.html" class="no-ch">Ejemplo de solución y variantes 0201</a></li>
+      <li><a href="ejemplo_de_solucin_0203.html" class="no-ch">Ejemplo de solución 0203</a></li>
+      <li><a href="ejemplo_de_solucin_0204.html" class="no-ch">Ejemplo de solución 0204</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="62_grabacin_de_eventos_midi.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejercicios_de_secuenciacin_1.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">6.3.: Convertir eventos MIDI a audio</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id35">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Proceso de convertir MIDI a audio</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta35_48_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">En este caso convertiremos los eventos MIDI a audio utilizando el sintetizador TTS1, lo dejaremos dentro del proyecto. </span></p>
+<p><span style="font-size: 14pt;">Si necesitas exportar el audio fuera del proyecto para enviárselo a otra persona usa el comando<br />File . Export Audio o en su defecto el botón EXPORT que aparece en la parte superior de la ventana principal del programa <img src="exportar.jpg" alt="boton exportar" width="583" height="299" /></span></p>
+<p><span style="font-size: 14pt;">Aquí resumo el proceso de conversión y colocación en el mismo proyecto:</span></p>
+<p><span style="font-size: 14pt;"><img src="05_MIDI_A_AUDIO.gif" alt="conversion MIDI a audio TTS1" width="600" height="358" /></span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id56">
+<div class="iDevice emphasis0">
+<div id="ta56_85" class="block iDevice_content">
+<table border="1">
+<tbody>
+<tr>
+<td style="width: 530px;"><strong><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html"></a></span><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html">Volver a S02</a><a href="s02_puesta_en_marcha.html">Puesta en marcha</a></span></strong></td>
+<td style="width: 253px;"><strong><span style="font-size: 14pt;"><a href="index.html">Volver a Inicio</a></span></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="62_grabacin_de_eventos_midi.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejercicios_de_secuenciacin_1.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>
