@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Paso 1: Seleccionar el controlador de audio | Introducción a la Producción Musical </title>
+<title>S03. Ejercicios de Secuenciación 1 | Introducción a la Producción Musical </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Julio Benavides - Instituto Superior Orson Welles" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-14"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-24"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Introducción a la Producción Musical</div></header>
@@ -33,10 +33,10 @@
       <li><a href="06_instalacin_del_programa.html" class="no-ch">06. Instalación del programa</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="s02_puesta_en_marcha.html" class="current-page-parent daddy">S02. Puesta en marcha</a>
-   <ul>
+   <li><a href="s02_puesta_en_marcha.html" class="daddy">S02. Puesta en marcha</a>
+   <ul class="other-section">
       <li><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="no-ch">Paso 0: Comprobar el funcionamiento del controlador MIDI</a></li>
-      <li id="active"><a href="paso_1_seleccionar_el_controlador_de_audio.html" class="active no-ch">Paso 1: Seleccionar el controlador de audio</a></li>
+      <li><a href="paso_1_seleccionar_el_controlador_de_audio.html" class="no-ch">Paso 1: Seleccionar el controlador de audio</a></li>
       <li><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="no-ch">Paso 2: Habilitar todos los interfaces de audio</a></li>
       <li><a href="paso_3_para_cada_interfaz_de_audio_habilitar_toda_entrada_y_salida.html" class="no-ch">Paso 3: Para cada interfaz de audio, habilitar toda entrada y salida</a></li>
       <li><a href="paso_4_etiquetar_todas_las_entradas_y_salidas_que_existan.html" class="no-ch">Paso 4: Etiquetar todas las entradas y salidas que existan</a></li>
@@ -50,8 +50,8 @@
       </li>
    </ul>
    </li>
-   <li><a href="s03_ejercicios_de_secuenciacin_1.html" class="daddy">S03. Ejercicios de Secuenciación 1</a>
-   <ul class="other-section">
+   <li id="active"><a href="s03_ejercicios_de_secuenciacin_1.html" class="active daddy">S03. Ejercicios de Secuenciación 1</a>
+   <ul>
       <li><a href="ejemplo_de_solucin_y_variantes_0201.html" class="no-ch">Ejemplo de solución y variantes 0201</a></li>
       <li><a href="ejemplo_de_solucin_0203.html" class="no-ch">Ejemplo de solución 0203</a></li>
       <li><a href="ejemplo_de_solucin_0204.html" class="no-ch">Ejemplo de solución 0204</a></li>
@@ -67,54 +67,84 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="63_convertir_eventos_midi_a_audio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo_de_solucin_y_variantes_0201.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">Paso 1: Seleccionar el controlador de audio</h1></header>
-<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id36">
+<header id="nodeDecoration"><h1 id="nodeTitle">S03. Ejercicios de Secuenciación 1</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id57">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><h1 class="iDeviceTitle">El controlador de audio</h1></header>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Instrucciones:</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta36_49_2" class="block iDevice_content">
-<p><span style="font-size: 14pt;">El controlador de audio es un programa que gestiona las latencias del programa.  Desde el momento que tocas una tecla del controlador MIDI hasta que escuches el evento de audio que es generado por un sintetizador virtual hay un tiempo de demora, a eso denominamos latencia.</span></p>
-<p><span style="font-size: 14pt;">Podemos usar:</span></p>
-<ul style="list-style-type: disc;">
-<li><span style="font-size: 14pt;">El controlador de audio de Windows (MME, WDM, Directx, etc). </span>
-<ul style="list-style-type: disc;">
-<li><span style="font-size: 14pt;">Ventaja: Puedo usar otro programa (Youtube, reproductores de audio, etc) a la vez</span></li>
-<li><span style="font-size: 14pt;">Desventaja: Tengo que ajustar la latencia por ensayo y error.</span></li>
-</ul>
-</li>
-<li><span style="font-size: 14pt;">El controlador de audio ASIO de un interfaz externo. (En caso que tengas uno)</span>
-<ul style="list-style-type: disc;">
-<li><span style="font-size: 14pt;">Ventaja: Puedo usar otro programa a la vez</span></li>
-<li><span style="font-size: 14pt;">Desventaja: No podré usar otro interfaz, por ejemplo el integrado (Altavoz, auricular, etc)</span></li>
-</ul>
-</li>
-<li><span style="font-size: 14pt;">Un controlador ASIO genérico: como el ASIO4ALL, que lo obtienes en este <a href="http://www.asio4all.org/downloads_11/ASIO4ALL_2_14_English.exe" target="_blank" rel="noopener">enlace</a></span>
-<ul style="list-style-type: disc;">
-<li><span style="font-size: 14pt;">Ventaja: La latencia es imperceptible.</span></li>
-<li><span style="font-size: 14pt;">Desventaja: No es posible usar más que un solo programa de audio a la vez.</span><span style="font-size: 14pt;"></span></li>
-</ul>
-</li>
-</ul>
-<p><span style="font-size: 14pt;">En nuestro caso usaremos el controlador ASIO4ALL.</span></p>
-<p><span style="font-size: 14pt;">Para seleccionar el controlador de audio, éste lo puedes hacer accediendo a </span></p>
-<p><span style="font-size: 14pt;">Edit \ Preference \ Playback and Recording.</span></p>
+<div id="ta57_57_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">Revisa previamente la puesta en marcha del programa.</span></p>
+<p><span style="font-size: 14pt;">Decide si usarás un controlador MIDI externo o el Virtual Controller.</span></p>
+<p><span style="font-size: 14pt;">Para cada ejercicio:</span></p>
+<p><span style="font-size: 14pt;">1. Abre un proyecto nuevo.</span></p>
+<p><span style="font-size: 14pt;">2. Inserta una pista sintetizador con el sintetizador CAKEWALK TTS1</span></p>
+<p><span style="font-size: 14pt;">3. Prueba que al ingresar un evento MIDI (via controlador MIDI externo o Virtual Controller)</span></p>
+<p><span style="font-size: 14pt;">4. Lee los detalles, configura las pistas y desarrolla la secuencia.</span></p>
+<p><span style="font-size: 14pt;">5. Graba el proyecto en una carpeta y haz una captura de pantalla del proyecto...</span></p>
+<p></p>
 <p><span style="font-size: 14pt;"></span></p>
-<p><img src="selecciona_controlador_de_audio.jpg" alt="seleccionar controlador de audio" width="752" height="353" /></p>
 </div>
 </div>
 </div>
 </div>
 </article>
-<article class="iDevice_wrapper FreeTextIdevice" id="id48">
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id58">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividades</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta58_58_2" class="block iDevice_content">
+<p></p>
+<p><img src="0201.jpg" alt="ejercicio 0201" width="846" height="263" /></p>
+<table border="1" width="875" height="32" style="width: 768px; height: 23px;">
+<tbody>
+<tr style="height: 23px;">
+<td style="width: 441.333px; height: 23px;"><strong><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html"></a></span><span style="font-size: 14pt;"><a href="ejemplo_de_solucin_y_variantes_0201.html">Ver ejemplo de solución y sugerencias</a></span></strong></td>
+<td style="width: 314.667px; height: 23px;"><strong><span style="font-size: 14pt;"><a href="index.html">Volver a Inicio</a></span></strong></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<hr />
+<p><img src="0202.jpg" alt="ejercicio 0202" width="846" height="296" /></p>
+<hr />
+<p></p>
+<p><img src="0203.jpg" alt="Ejercicio 0203" width="854" height="336" /></p>
+<table border="1" width="629" height="20" style="width: 677px;">
+<tbody>
+<tr>
+<td style="width: 404px;"><span style="font-size: 14pt;"><strong><a href="ejemplo_de_solucin_0203.html">Ver ejemplo de solución</a></strong></span></td>
+<td style="width: 260px;"><span style="font-size: 14pt;"><strong><a href="index.html">Volver a Inicio</a></strong></span></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>
+<hr />
+<p><img src="0204.jpg" alt="Ejercicio 0204" width="848" height="271" /></p>
+<table border="1" style="width: 760px;">
+<tbody>
+<tr>
+<td style="width: 461.333px;"><strong><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html"></a></span><span style="font-size: 14pt;"><a href="ejemplo_de_solucin_0204.html">Ver ejemplo de solución y sugerencias</a></span></strong></td>
+<td style="width: 286.667px;"><strong><span style="font-size: 14pt;"><a href="index.html">Volver a Inicio</a></span></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id59">
 <div class="iDevice emphasis0">
-<div id="ta48_85" class="block iDevice_content">
-<table border="1" width="799" height="67">
+<div id="ta59_85" class="block iDevice_content">
+<table border="1">
 <tbody>
 <tr>
 <td style="width: 530px;"><strong><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html"></a></span><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html">Volver a S02</a><a href="s02_puesta_en_marcha.html">Puesta en marcha</a></span></strong></td>
@@ -132,7 +162,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="63_convertir_eventos_midi_a_audio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo_de_solucin_y_variantes_0201.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
