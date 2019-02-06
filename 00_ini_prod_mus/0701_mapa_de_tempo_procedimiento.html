@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>S02. Puesta en marcha | Iniciación a la Producción Musical </title>
+<title>0701. Mapa de tempo: Procedimiento | Iniciación a la Producción Musical </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Julio Benavides - Instituto Superior Orson Welles" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-47"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Iniciación a la Producción Musical</div></header>
@@ -33,8 +33,8 @@
       <li><a href="06_instalacin_del_programa.html" class="no-ch">06. Instalación del programa</a></li>
    </ul>
    </li>
-   <li id="active"><a href="s02_puesta_en_marcha.html" class="active daddy">S02. Puesta en marcha</a>
-   <ul>
+   <li><a href="s02_puesta_en_marcha.html" class="daddy">S02. Puesta en marcha</a>
+   <ul class="other-section">
       <li><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="no-ch">Paso 0: Comprobar el funcionamiento del controlador MIDI</a></li>
       <li><a href="paso_1_seleccionar_el_controlador_de_audio.html" class="no-ch">Paso 1: Seleccionar el controlador de audio</a></li>
       <li><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="no-ch">Paso 2: Habilitar todos los interfaces de audio</a></li>
@@ -77,9 +77,9 @@
       <li><a href="0603_ejercicios_con_el_secuenciador_por_pasos.html" class="no-ch">0603. Ejercicios con el secuenciador por pasos</a></li>
    </ul>
    </li>
-   <li><a href="s07_reconstruccin_de_un_mapa_de_tempo.html" class="daddy">S07. Reconstrucción de un mapa de tempo</a>
-   <ul class="other-section">
-      <li><a href="0701_mapa_de_tempo_procedimiento.html" class="no-ch">0701. Mapa de tempo: Procedimiento</a></li>
+   <li class="current-page-parent"><a href="s07_reconstruccin_de_un_mapa_de_tempo.html" class="current-page-parent daddy">S07. Reconstrucción de un mapa de tempo</a>
+   <ul>
+      <li id="active"><a href="0701_mapa_de_tempo_procedimiento.html" class="active no-ch">0701. Mapa de tempo: Procedimiento</a></li>
    </ul>
    </li>
    <li><a href="s08_ejecicios_avanzados_mapa_de_tempo.html" class="no-ch">S08. Ejecicios avanzados: Mapa de Tempo</a></li>
@@ -90,85 +90,29 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="06_instalacin_del_programa.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="s07_reconstruccin_de_un_mapa_de_tempo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="s08_ejecicios_avanzados_mapa_de_tempo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">S02. Puesta en marcha</h1></header>
-<article class="iDevice_wrapper FreeTextIdevice" id="id27">
-<div class="iDevice emphasis0">
-<div id="ta27_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt;">En nuestro curso, por cuestiones prácticas, no haremos la puesta en marcha grabando señales de audio. Eventualmente podríamos hacerlo de ser el caso. A pesar de ello, una manera muy rápida de saber si nuestro sistema está a punto para iniciar un proyecto es insertar una pista sintetizador pues ésta es una pista especial: Recibe una señal MIDI y genera audio.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;">Has de saber que, por lo general, los programas de producción musical suelen tener tres tipos de pistas:</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;">1. Pistas de audio: Reciben señales de audio y devuelven audio</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;">2. Pistas MIDI: Reciben señales MIDI y devuelven señales MIDI a un sintetizador (generalmente fuera del computador, según las buenas prácticas)</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;">3. Pistas Instrumento o sintetizador: Reciben señales MIDI y dentro de ellas hay un sintetizador que genera audio.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;">A continuación mostramos el procedimiento para la puesta en marcha de cualquier programa de producción musical y discográfica. Clica en cualquiera de los items para acceder a los detalles.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;">En nuestro caso utilizaremos el controlador de audio ASIO4ALL que gestiona muy bien las latencias y tiene algunas desventajas con otros controladores como comentamos en clase...</span></p>
-</div>
-</div>
-</article>
-<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id28">
+<header id="nodeDecoration"><h1 id="nodeTitle">0701. Mapa de tempo: Procedimiento</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id102">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><h1 class="iDeviceTitle">Procedimiento de puesta en marcha</h1></header>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Un ejemplo simple</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta28_47_2" class="block iDevice_content">
-<table border="1" style="width: 100%;">
-<tbody>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 0</span></td>
-<td style="width: 86.939%;"><span style="font-size: 14pt;"><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html">Comprobar el funcionamiento del controlador MIDI</a></span></td>
-</tr>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 1</span></td>
-<td style="width: 86.939%;"><a href="paso_1_seleccionar_el_controlador_de_audio.html"><span style="font-size: 14pt;">Seleccionar el controlador de audio</span></a></td>
-</tr>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 2</span></td>
-<td style="width: 86.939%;"><span style="font-size: 14pt;"><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html">Habilitar todos los interfaces de audio</a></span></td>
-</tr>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 3</span></td>
-<td style="width: 86.939%;"><span style="font-size: 14pt;"><a href="paso_3_para_cada_interfaz_de_audio_habilitar_toda_entrada_y_salida.html">Para cada interfaz de audio, habilitar toda entrada y salida</a></span></td>
-</tr>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 4</span></td>
-<td style="width: 86.939%;"><a href="paso_4_etiquetar_todas_las_entradas_y_salidas_que_existan.html"><span style="font-size: 14pt;">Etiquetar todas las entradas y salidas que existan</span></a></td>
-</tr>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 5</span></td>
-<td style="width: 86.939%;"><span style="font-size: 14pt;"><a href="paso_5_seleccionar_puertos_midi_a_utilizar.html">Seleccionar puertos MIDI a utilizar</a></span></td>
-</tr>
-<tr>
-<td style="width: 13.061%;"><span style="font-size: 14pt;">Paso 6</span><span style="font-size: 14pt;"><br /></span></td>
-<td style="width: 86.939%;">
-<p><span style="font-size: 14pt;"><a href="paso_6_prueba_del_sistema.html">Prueba del sistema</a>: Grabar eventos MIDI y convertirlos a audio usando un sintetizador virtual.</span></p>
-<p><span style="font-size: 14pt;">6.1.<a href="61_insertar_un_sintetizador_virtual.html"> Insertar un sintetizador virtual</a></span></p>
-<p><span style="font-size: 14pt;">6.2. <a href="62_grabacin_de_eventos_midi.html">Grabación de eventos MIDI</a></span></p>
-<p><span style="font-size: 14pt;">6.3.<a href="63_convertir_eventos_midi_a_audio.html">Convertir eventos MIDI a audio usando un sintetizador virtual</a>.</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><span style="font-size: 14pt;"><a href="s03_ejercicios_de_secuenciacin_1.html">Ejercicios de secuenciación 1</a>. </span></p>
+<div id="ta102_102_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">En la carpeta recursos del google drive del curso tendrás una serie de archivos de audio sencillos para dominar la técnica. Por ejemplo aqui muestro el archivo 0001.wav. Este archivo muestra eventos de audio que se han tocado como si fueran negras (beat), o sea cada una de ellas corresponde a un tiempo del compás y por lo tanto debe sonar a la vez que el sonido del metrónomo. Observa con detenimiento:</span></p>
+<p><span style="font-size: 14pt;"><img src="0001_el_descuadre.jpg" alt="analisis" width="1065" height="385" /></span></p>
+<p><span style="font-size: 14pt;">Esas líneas amarillas punteadas te indican dónde debería estar esos tiempo de compás.</span></p>
+<p><span style="font-size: 14pt;">Para hacer esto el programa debe primero detectar las transcientes.</span></p>
+<p><span style="font-size: 14pt;">Una transiente, en audio, es un cambio súbito del volumen... un pico.  Por lo general ese "pico" puede representar el ataque de una negra (no te fies, hay que escuchar la música pues podría ser una síncopa y tal... por ahora asumamos que sí en tanto aprendamos la técnica).</span></p>
+<p><span style="font-size: 14pt;">Vamos a configurar la vista de la pista para que nos muestre la transiente.<br />Usando la tecla TAB  y SHIFT + TAB  podemos pasearnos por esas transientes:</span></p>
+<p><span style="font-size: 14pt;"><img src="07_paeso_de_transcientes.gif" alt="paseo de transcientes" width="768" height="480" /></span></p>
+<p><span style="font-size: 14pt;">Te muestro el proceso, lentamente. Mira que hay transientes que no requieren ser tomadas en cuenta por el proyecto porque "caen" preciso:</span></p>
+<p><span style="font-size: 14pt;"><img src="0701_corregir_transientes.gif" alt="corrige transiente" width="806" height="480" /></span></p>
 </div>
 </div>
-</div>
-</div>
-</article>
-<article class="iDevice_wrapper FreeTextIdevice" id="id29">
-<div class="iDevice emphasis0">
-<div id="ta29_85" class="block iDevice_content">
-<table border="1" width="858" height="46">
-<tbody>
-<tr>
-<td style="width: 393px; text-align: center;"><span style="font-size: 14pt;"><strong><a href="s01_exploracin_del_aula_e_instalacin_del_programa.html">Volver a S01</a></strong></span></td>
-<td style="width: 449px; text-align: center;"><span style="font-size: 14pt;"><strong><a href="index.html">Volver a Inicio</a></strong></span></td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 </article>
@@ -179,7 +123,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="06_instalacin_del_programa.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="s07_reconstruccin_de_un_mapa_de_tempo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="s08_ejecicios_avanzados_mapa_de_tempo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
