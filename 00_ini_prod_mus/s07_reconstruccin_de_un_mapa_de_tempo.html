@@ -92,6 +92,45 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">S07. Reconstrucción de un mapa de tempo</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id101">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Caso de estudio:</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta101_100_2" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt;">Imagina que estamos en una reunión con un guitarrista popular que toca piezas de música. Si acompañas el pulso de la música con el pie o palmas o una pandereta notarás que en muchas piezas el músico no sigue un pulso constante como un metrónomo.  Hay momentos en que acelera el tempo otras en que desacelera.  En música este parámetro se denomina "caracter" y en muchas músicas es parte fundamental de la expresión musical. Por ejemplo en un yaraví.<br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">En la música clásica, el jazz quiza encuentres ejemplos más evidentes pero te mostraré dos ejemplos:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"> - Raúl García Zárate - Flor de Sancayo : </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><audio controls="controls" src="GARCIA_ZARATE_FLOR_DE_ZANCAYO_-_EXTRACTO.wav" class="mediaelement"><a href="GARCIA_ZARATE_FLOR_DE_ZANCAYO_-_EXTRACTO.wav">audio/wav</a></audio><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Reto: ¿Puedes darte cuenta en qué momento el maestro García Zárate "corre" o se "frena"?</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">- Squeeze - Splitting into three: (<strong><span style="color: #ff0000;">¡Cuidado!</span></strong>: Controla tu volumen antes de reproducirlo)</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"> <audio controls="controls" src="SQUEEZE_-_SPLITTING_INTO_THREE_TEMPO_CHANGE.wav" class="mediaelement"><a href="SQUEEZE_-_SPLITTING_INTO_THREE_TEMPO_CHANGE.wav">audio/wav</a></audio><br /><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">En este último ejemplo te darás cuenta del efecto de aceleración que los músicos imprimen en su interpretación.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Caso: Imagína que queremos añadirle una pandereta a la interpretación de Raúl García Zárate.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Podemos solucionarlo así:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">1. Grabamos en una pista el sonido de pandereta mientras escuchamos la interpretación. Habrá errores y luego habrá que corregir las imprecisiones.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">2. "Estirar" la interpretación del músico para que de ajuste a un metrónomo fijo del programa. Esta solución destruiría el caracter de la música. Recuerda que mucha música es música por esa razón.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">3. Conseguimos que el proyecto "persiga" al músico, que actúe como cuando nosotros estamos acompañando con la pandereta pero sea preciso donde tocar.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Para esta última solución es la creación del mapa de tempo.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Escucha la pieza de Raul García cómo no coincide con el metrónomo:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><audio controls="controls" src="_RGZ_ANTES_de_solucion.mp3" class="mediaelement"><a href="_RGZ_ANTES_de_solucion.mp3">audio/mpeg</a></audio><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Ahora escucha cómo nuestro proyecto "persigue" al maestro en su interpretación</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><audio controls="controls" src="_RGZ_ANTES_solucion_metronomo.mp3" class="mediaelement"><a href="_RGZ_ANTES_solucion_metronomo.mp3">audio/mpeg</a></audio><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Al inicio escucharás que el metrónomo va a lo suyo, pero una vez que la pieza de audio empieza, el proyecto persigue el pulso...</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">A partir de aquí cualquier evento MIDI que secuenciemos seguirá fielmente el mapa de tempo creado, por ejemplo aquí le agregamos con el step sequencer un bombo y una pandereta en negras:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><audio controls="controls" src="_RGZ_solucion_pandereta.mp3" class="mediaelement"><a href="_RGZ_solucion_pandereta.mp3">audio/mpeg</a></audio><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">O, siendo gentilmente bizarros, podríamos atrevernos a...</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><audio controls="controls" src="_RGZ_solucion_bizarro.mp3" class="mediaelement"><a href="_RGZ_solucion_bizarro.mp3">audio/mpeg</a></audio><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Observa, finalmente cómo ha quedado nuestro mapa de tempo. Tienes una representación gráfica, en el eje vertical aprecias los valores del metrónomo y en el horizontal los compases.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Mira los valores de la izquierda, tienes una lista de todos los valores del metrónomo...</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><img src="_rgz_mapa_tempo.jpg" alt="mapa de tempo raul garcia zarate" width="1280" height="763" /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">¿Te animas a desarrollarlo tú con algun fragmento de tu canción favorita?</span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
 <div id="packageLicense" class="cc cc-by-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
 </div>
