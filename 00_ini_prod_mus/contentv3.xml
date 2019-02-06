@@ -32223,7 +32223,7 @@ complete this learning."></unicode>
 &lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;audio controls=&quot;controls&quot; src=&quot;resources/_RGZ_solucion_bizarro.mp3&quot; class=&quot;mediaelement&quot;&gt;&lt;a href=&quot;resources/_RGZ_solucion_bizarro.mp3&quot;&gt;audio/mpeg&lt;/a&gt;&lt;/audio&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Observa, finalmente cómo ha quedado nuestro mapa de tempo. Tienes una representación gráfica, en el eje vertical aprecias los valores del metrónomo y en el horizontal los compases.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Mira los valores de la izquierda, tienes una lista de todos los valores del metrónomo...&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;img src=&quot;resources/_rgz_mapa_tempo.jpg&quot; alt=&quot;mapa de tempo raul garcia zarate&quot; width=&quot;1280&quot; height=&quot;763&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;resources/_rgz_mapa_tempo.jpg&quot; alt=&quot;mapa tempo&quot; width=&quot;1280&quot; height=&quot;763&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;¿Te animas a desarrollarlo tú con algun fragmento de tu canción favorita?&lt;/span&gt;&lt;/p&gt;"></unicode>
                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                     <int value="4"></int>
@@ -32452,7 +32452,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1217"></int>
+                           <int value="1240"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32466,7 +32466,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.17"></unicode>
+                         <unicode value="101_100_2.35"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="295">
                           <dictionary>
@@ -32477,7 +32477,7 @@ complete this learning."></unicode>
                            <string role="key" value="_storageName"></string>
                            <string value="_RGZ_ANTES_de_solucion.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_ANTES_de_solucion.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\01RGZ_metronomo_ido.mp3"></string>
                            <string role="key" value="checksum"></string>
                            <string value="6f098f3bc0acce34b93351f119a90041"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -32504,7 +32504,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1218"></int>
+                           <int value="1241"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32518,7 +32518,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.18"></unicode>
+                         <unicode value="101_100_2.36"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="296">
                           <dictionary>
@@ -32527,11 +32527,11 @@ complete this learning."></unicode>
                            <string role="key" value="_package"></string>
                            <reference key="7"></reference>
                            <string role="key" value="_storageName"></string>
-                           <string value="_RGZ_ANTES_de_solucion.mp3"></string>
+                           <string value="_RGZ_ANTES_solucion_metronomo.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_ANTES_de_solucion.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\02RGZ_sol_metro.mp3"></string>
                            <string role="key" value="checksum"></string>
-                           <string value="6f098f3bc0acce34b93351f119a90041"></string>
+                           <string value="e07818d91a6a08881d1d2847dfd4ddf5"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                            <int value="2"></int>
                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -32556,7 +32556,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1219"></int>
+                           <int value="1242"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32570,7 +32570,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.19"></unicode>
+                         <unicode value="101_100_2.37"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="297">
                           <dictionary>
@@ -32579,11 +32579,11 @@ complete this learning."></unicode>
                            <string role="key" value="_package"></string>
                            <reference key="7"></reference>
                            <string role="key" value="_storageName"></string>
-                           <string value="_RGZ_ANTES_solucion_metronomo.mp3"></string>
+                           <string value="_RGZ_solucion_pandereta.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_ANTES_solucion_metronomo.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\03RGZ_sol_pand.mp3"></string>
                            <string role="key" value="checksum"></string>
-                           <string value="e07818d91a6a08881d1d2847dfd4ddf5"></string>
+                           <string value="82d3fc626dbc5857d85bf070c7d546ce"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                            <int value="2"></int>
                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -32608,7 +32608,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1220"></int>
+                           <int value="1243"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32622,7 +32622,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.20"></unicode>
+                         <unicode value="101_100_2.38"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="298">
                           <dictionary>
@@ -32631,11 +32631,11 @@ complete this learning."></unicode>
                            <string role="key" value="_package"></string>
                            <reference key="7"></reference>
                            <string role="key" value="_storageName"></string>
-                           <string value="_RGZ_ANTES_solucion_metronomo.mp3"></string>
+                           <string value="_RGZ_solucion_bizarro.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_ANTES_solucion_metronomo.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\04RGZ_sol_biza.mp3"></string>
                            <string role="key" value="checksum"></string>
-                           <string value="e07818d91a6a08881d1d2847dfd4ddf5"></string>
+                           <string value="4e48a467606bc7204b2abd2b94460d6b"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                            <int value="2"></int>
                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -32660,7 +32660,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1221"></int>
+                           <int value="1244"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32674,7 +32674,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.21"></unicode>
+                         <unicode value="101_100_2.39"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="299">
                           <dictionary>
@@ -32685,7 +32685,7 @@ complete this learning."></unicode>
                            <string role="key" value="_storageName"></string>
                            <string value="_rgz_mapa_tempo.jpg"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_rgz_mapa_tempo.jpg"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\05RGZ_mapatempo.jpg"></string>
                            <string role="key" value="checksum"></string>
                            <string value="b446a5977702994b59f14475a9f8ffcc"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -32712,7 +32712,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1222"></int>
+                           <int value="1245"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32726,7 +32726,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.22"></unicode>
+                         <unicode value="101_100_2.40"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="300">
                           <dictionary>
@@ -32735,11 +32735,11 @@ complete this learning."></unicode>
                            <string role="key" value="_package"></string>
                            <reference key="7"></reference>
                            <string role="key" value="_storageName"></string>
-                           <string value="_RGZ_solucion_bizarro.mp3"></string>
+                           <string value="_RGZ_ANTES_de_solucion.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_solucion_bizarro.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\01RGZ_metronomo_ido.mp3"></string>
                            <string role="key" value="checksum"></string>
-                           <string value="4e48a467606bc7204b2abd2b94460d6b"></string>
+                           <string value="6f098f3bc0acce34b93351f119a90041"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                            <int value="2"></int>
                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -32764,7 +32764,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1223"></int>
+                           <int value="1246"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32778,7 +32778,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.23"></unicode>
+                         <unicode value="101_100_2.41"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="301">
                           <dictionary>
@@ -32787,11 +32787,11 @@ complete this learning."></unicode>
                            <string role="key" value="_package"></string>
                            <reference key="7"></reference>
                            <string role="key" value="_storageName"></string>
-                           <string value="_RGZ_solucion_bizarro.mp3"></string>
+                           <string value="_RGZ_ANTES_solucion_metronomo.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_solucion_bizarro.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\02RGZ_sol_metro.mp3"></string>
                            <string role="key" value="checksum"></string>
-                           <string value="4e48a467606bc7204b2abd2b94460d6b"></string>
+                           <string value="e07818d91a6a08881d1d2847dfd4ddf5"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                            <int value="2"></int>
                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -32816,7 +32816,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1224"></int>
+                           <int value="1247"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32830,7 +32830,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.24"></unicode>
+                         <unicode value="101_100_2.42"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="302">
                           <dictionary>
@@ -32841,7 +32841,7 @@ complete this learning."></unicode>
                            <string role="key" value="_storageName"></string>
                            <string value="_RGZ_solucion_pandereta.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_solucion_pandereta.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\03RGZ_sol_pand.mp3"></string>
                            <string role="key" value="checksum"></string>
                            <string value="82d3fc626dbc5857d85bf070c7d546ce"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -32868,7 +32868,7 @@ complete this learning."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="1225"></int>
+                           <int value="1248"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -32882,7 +32882,7 @@ complete this learning."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="101_100_2.25"></unicode>
+                         <unicode value="101_100_2.43"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="303">
                           <dictionary>
@@ -32891,11 +32891,11 @@ complete this learning."></unicode>
                            <string role="key" value="_package"></string>
                            <reference key="7"></reference>
                            <string role="key" value="_storageName"></string>
-                           <string value="_RGZ_solucion_pandereta.mp3"></string>
+                           <string value="_RGZ_solucion_bizarro.mp3"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\windows\\temp\\tmp_zdztc\\_RGZ_solucion_pandereta.mp3"></string>
+                           <string value="c:\\windows\\temp\\tmp7v9cwp.eXe\\previews\\allyourbase\\04RGZ_sol_biza.mp3"></string>
                            <string role="key" value="checksum"></string>
-                           <string value="82d3fc626dbc5857d85bf070c7d546ce"></string>
+                           <string value="4e48a467606bc7204b2abd2b94460d6b"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                            <int value="2"></int>
                            <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -32922,7 +32922,7 @@ complete this learning."></unicode>
                     <string role="key" value="intlinks_to_anchors"></string>
                     <dictionary></dictionary>
                     <string role="key" value="nextImageId"></string>
-                    <int value="26"></int>
+                    <int value="44"></int>
                     <string role="key" value="parentNode"></string>
                     <reference key="290"></reference>
                    </dictionary>
@@ -33032,8 +33032,6 @@ complete this learning."></unicode>
                     <string value=""></string>
                    </dictionary>
                   </instance>
-                  <reference key="295"></reference>
-                  <reference key="296"></reference>
                   <instance class="exe.engine.resource.Resource" reference="642">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
@@ -33074,8 +33072,6 @@ complete this learning."></unicode>
                     <string value=""></string>
                    </dictionary>
                   </instance>
-                  <reference key="297"></reference>
-                  <reference key="298"></reference>
                   <instance class="exe.engine.resource.Resource" reference="1062">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
@@ -33116,7 +33112,6 @@ complete this learning."></unicode>
                     <string value=""></string>
                    </dictionary>
                   </instance>
-                  <reference key="299"></reference>
                   <instance class="exe.engine.resource.Resource" reference="870">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
@@ -33137,8 +33132,6 @@ complete this learning."></unicode>
                     <string value=""></string>
                    </dictionary>
                   </instance>
-                  <reference key="300"></reference>
-                  <reference key="301"></reference>
                   <instance class="exe.engine.resource.Resource" reference="558">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
@@ -33179,8 +33172,6 @@ complete this learning."></unicode>
                     <string value=""></string>
                    </dictionary>
                   </instance>
-                  <reference key="302"></reference>
-                  <reference key="303"></reference>
                   <instance class="exe.engine.resource.Resource" reference="718">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
@@ -33221,6 +33212,15 @@ complete this learning."></unicode>
                     <string value=""></string>
                    </dictionary>
                   </instance>
+                  <reference key="295"></reference>
+                  <reference key="296"></reference>
+                  <reference key="297"></reference>
+                  <reference key="298"></reference>
+                  <reference key="299"></reference>
+                  <reference key="300"></reference>
+                  <reference key="301"></reference>
+                  <reference key="302"></reference>
+                  <reference key="303"></reference>
                  </list>
                  <string role="key" value="version"></string>
                  <int value="0"></int>
@@ -33807,7 +33807,7 @@ complete this learning."></unicode>
   <string role="key" value="compatibleWithVersion9"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="306"></reference>
+  <reference key="290"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -35516,8 +35516,6 @@ complete this learning."></unicode>
    </list>
    <string role="key" value="4e48a467606bc7204b2abd2b94460d6b"></string>
    <list>
-    <reference key="300"></reference>
-    <reference key="301"></reference>
     <reference key="558"></reference>
     <reference key="559"></reference>
    </list>
@@ -35647,8 +35645,6 @@ complete this learning."></unicode>
    </list>
    <string role="key" value="6f098f3bc0acce34b93351f119a90041"></string>
    <list>
-    <reference key="295"></reference>
-    <reference key="296"></reference>
     <reference key="642"></reference>
     <reference key="643"></reference>
    </list>
@@ -35753,8 +35749,6 @@ complete this learning."></unicode>
    </list>
    <string role="key" value="82d3fc626dbc5857d85bf070c7d546ce"></string>
    <list>
-    <reference key="302"></reference>
-    <reference key="303"></reference>
     <reference key="718"></reference>
     <reference key="719"></reference>
    </list>
@@ -35983,7 +35977,6 @@ complete this learning."></unicode>
    </list>
    <string role="key" value="b446a5977702994b59f14475a9f8ffcc"></string>
    <list>
-    <reference key="299"></reference>
     <reference key="870"></reference>
    </list>
    <string role="key" value="b500c74701aad8a8f002752460cd1911"></string>
@@ -36265,8 +36258,6 @@ complete this learning."></unicode>
    </list>
    <string role="key" value="e07818d91a6a08881d1d2847dfd4ddf5"></string>
    <list>
-    <reference key="297"></reference>
-    <reference key="298"></reference>
     <reference key="1062"></reference>
     <reference key="1063"></reference>
    </list>
