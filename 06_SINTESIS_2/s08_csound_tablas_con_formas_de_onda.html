@@ -38,17 +38,58 @@
       <li><a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="no-ch">0705. Variantes: Un botón que controla dos paneles</a></li>
    </ul>
    </li>
-   <li id="active"><a href="s08_csound_tablas_con_formas_de_onda.html" class="active no-ch">S08. Csound: Tablas con formas de onda</a></li>
+   <li id="active"><a href="s08_csound_tablas_con_formas_de_onda.html" class="active daddy">S08. Csound: Tablas con formas de onda</a>
+   <ul>
+      <li><a href="0801_gen10_llenar_una_tabla_por_sntesis_aditiva_12.html" class="daddy">0801. GEN10: Llenar una tabla por síntesis aditiva 1/2</a>
+      <ul class="other-section">
+         <li><a href="080101_ejercicios_tericos_gen10.html" class="no-ch">080101. Ejercicios teóricos GEN10</a></li>
+      </ul>
+      </li>
+      <li><a href="0802_implementacin_de_tablas_en_csound.html" class="no-ch">0802. Implementación de tablas en Csound</a></li>
+      <li><a href="0803_gen_9_llenar_tabla_por_sntesis_aditiva_22.html" class="no-ch">0803. GEN 9: Llenar tabla por síntesis aditiva 2/2</a></li>
+      <li><a href="0804_gen_7_llenar_tabla_dibujando_lneas.html" class="no-ch">0804. GEN 7: Llenar tabla "dibujando" líneas</a></li>
+   </ul>
+   </li>
 </ul>
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+<a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="0801_gen10_llenar_una_tabla_por_sntesis_aditiva_12.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">S08. Csound: Tablas con formas de onda</h1></header>
+<article class="iDevice_wrapper objectivesIdevice em_iDevice" id="id24">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Objetivo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta24_45_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">Crear un sintetizador que permita seleccionar, por parte del usuario, distintas formas de ondas que están almacenadas en tablas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id25">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tablas en sintetizadores hardware y software</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta25_46_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">La mayoría de sintetizadores digitales poseen una memoria de almacenamiento de solo lectura que es utilizada como fuente original de sonido. A esta memoria se accede a través del módulo del oscilador. Por ejemplo, esta es la lista de muestras que posee el sintetizador E-mu Vintage Key+ (un sintetizador digital hardware clásico que está a tu disposición en el instituto):</span></p>
+<p><span style="font-size: 14pt;"><img src="0800_1_TABLAS_emu.png" alt="lista samples emu" width="722" height="416" /></span></p>
+<p><span style="font-size: 14pt;">Inclusive los sintetizadores analógicos pueden ser considerados dentro de este esquema.  Si bien es cierto, en un oscilador analógico, no se reproducen muestras; de él se reproduce una forma de onda que permanece, en principio, invariante en el tiempo. A continuación te presento el selector de formas de ondas del sintetizador KORG-MS20 que tenemos en el instituto.</span></p>
+<p><span style="font-size: 14pt;"><img src="ms20_oscillator.jpg" alt="ms20 oscilador" width="432" height="285" /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Por esta circunstancia, una manera sencilla de implementar un sintetizador es crear un espacio en memoria que permita almacenar un conjunto de muestras almacenadas en tablas.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">Csound es capaz de crear tablas y almacenar en ellas cualquier tipo de datos. Las podemos llenar de manera manual (cuando queramos guardar en ella un archivo de audio que el usuario reproducirá) o de manera automática (utilizando las rutinas de funciones generadoras GEN). En este <a href="http://www.csounds.com/manual/html/ScoreGenRef.html" target="_blank" rel="noopener">enlace</a> hay un resumen de ellas.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;">En esta sesión exploraremos el uso de las rutinas GEN10, GEN9, GEN7.</span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
 <div id="packageLicense" class="cc cc-by-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
 </div>
@@ -56,7 +97,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+<a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="0801_gen10_llenar_una_tabla_por_sntesis_aditiva_12.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
