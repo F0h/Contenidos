@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Conversión de números de 4 bits | Tecnología Musical II </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Julio Benavides" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Tecnología Musical II</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Tecnología Musical II</a></li>
+   <li class="current-page-parent"><a href="t01__introduccin_al_protocolo_midi.html" class="current-page-parent daddy">T01 - Introducción al protocolo MIDI</a>
+   <ul>
+      <li id="active"><a href="conversin_de_nmeros_de_4_bits.html" class="active no-ch">Conversión de números de 4 bits</a></li>
+      <li><a href="descifracifra_un_canal_midi_en_un_byte_de_estado_midi.html" class="no-ch">Descifra/Cifra un canal MIDI en un byte de estado MIDI.</a></li>
+      <li><a href="nmero_de_notas_midi.html" class="no-ch">Número de notas MIDI</a></li>
+      <li><a href="cifradescifra_note_on__off.html" class="no-ch">Cifra/Descifra Note On / Off</a></li>
+      <li><a href="actividad_de_resumen.html" class="no-ch">Actividad de resumen</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="t01__introduccin_al_protocolo_midi.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="descifracifra_un_canal_midi_en_un_byte_de_estado_midi.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Conversión de números de 4 bits</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Convertir números de hexadecimal a decimal de 4 bits (un nibble o un dígito hexadecimal)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_110_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 14pt;">¿Te es familiar esta imagen?</span></p>
+<p><span style="font-size: 14pt;"><img src="01.jpg" alt="monitor" title="monitor midi" width="492" height="277" /></span></p>
+<p><span style="font-size: 14pt;">Es lo que aparece cuando solemos tocar una tecla en un teclado MIDI. Nuestra consigna el semestre pasado fue: <span style="color: #800000;"><span style="color: #ff0000;">"<strong>Si al presionar teclas del teclado el byte de status aparece el número 8n o 9n, donde n es cualquier número hexadecimal, asumimos que el teclado está operando correctamente"</strong></span>.</span></span></p>
+<p><span style="font-size: 14pt;"><span style="color: #800000;"><span style="color: #000000;">Este semestre nos toca entender qué significa cada uno de esos números.</span></span></span></p>
+<p><strong><span style="font-size: 14pt; color: #0000ff;">Todos están en hexadecimal<span style="color: #000000;">.</span></span></strong><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"> Es decir ahí estás viendo el número<strong><span style="color: #000080;"> uno-nueve</span></strong> y <strong><span style="color: #ff0000;">no  diecinueve</span></strong><span style="color: #ff0000;"><span style="color: #000000;">. </span></span></span></span><span style="font-size: 14pt; color: #0000ff;"></span></p>
+<p><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"><span style="color: #ff0000;"><span style="color: #000000;">Por esa razón debemos familiarizarnos con los números en hexadecimal, lo haremos primero con un solo dígito (4 bits, o un nibble). Aquí el resumen:</span></span></span></span></p>
+<p><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"><span style="color: #ff0000;"><span style="color: #000000;"><img src="02_hexdec.jpg" alt="dechex" width="204" height="405" /></span></span></span></span></p>
+<p><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"><span style="color: #ff0000;"><span style="color: #000000;">En base 16 hay 16 dígitos que hay que representar, no hay problemas con número del 0 al 9 pues tiene un sólo dígito como el decimal. Los matemáticos decidieron representar los otros valores (10 al 15) con letras, pueden ser mayúsculas o minúsculas. <strong><span style="color: #0000ff;">Es buena costumbre añadir una "h" a un número hexadecimal para advertir al lector que el número que está viendo está en esa base.</span></strong></span></span></span></span></p>
+<p><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"><span style="color: #ff0000;"><span style="color: #000000;"><span style="color: #0000ff;"><span style="color: #000000;">Por esa razón lo correcto en nuestro monitor MIDI era presentar el número 19 (uno-nueve) como <strong><span style="color: #000080;">19h</span></strong>.</span></span></span></span></span></span></p>
+<p><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"><span style="color: #ff0000;"><span style="color: #000000;"><span style="color: #0000ff;"><span style="color: #000000;">Es fácil recordar los números en hexadecimal, sólo cuenta con los dedos siguiendo este truco:</span></span></span></span></span></span></p>
+<p><span style="font-size: 14pt; color: #0000ff;"><span style="color: #000000;"><span style="color: #ff0000;"><span style="color: #000000;"><span style="color: #0000ff;"><span style="color: #000000;"><img src="07_HEX_DEC_MANO.jpg" alt="manohex" width="323" height="401" /></span></span></span></span></span></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Actividad</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2_109_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 14pt;">Practica esta habilidad desarrollada en clase:</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ExternalUrlIdevice" id="id3">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content" style="width:100%">
+<iframe src="https://f0h.github.io/Cuestionarios/03_TECMUS_2/01_Conversiones_hex_a_dec_1/index.html" width="600" height="500" style="width:100%"></iframe>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="t01__introduccin_al_protocolo_midi.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="descifracifra_un_canal_midi_en_un_byte_de_estado_midi.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
