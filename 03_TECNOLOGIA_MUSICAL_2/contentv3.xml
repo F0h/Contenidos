@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="Tecnología Musical II"></unicode>
@@ -87,22 +87,150 @@ Lima - Perú"></unicode>
   <string role="key" value="_name"></string>
   <unicode value="03_TECNOLOGIA_MUSICAL_2"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="16"></int>
+  <int value="17"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="7"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
-   <instance class="exe.engine.node.Node" reference="5">
+   <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
      <unicode value="Tecnología Musical II"></unicode>
      <string role="key" value="idevices"></string>
-     <list></list>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="2">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="123_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Bienvenido al resumen de contenidos del curso de teoría Tecnología Musical II&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Aquí no encontrarás todo lo visto en clase, sino apenas un resumen con las herramientas para desarrollar habilidades&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Consulta la carpeta 00_Imagenes de nuestro Google Drive para detalles del curso práctico.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Cualquier duda, sugerencia, observación estaré a tus órdenes.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Julio Benavides&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list></list>
+             <string role="key" value="idevice"></string>
+             <reference key="2"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="0"></int>
+           <string role="key" value="parentNode"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="16"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="1"></reference>
+     <reference key="4"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -117,13 +245,13 @@ Lima - Perú"></unicode>
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="4">
+      <instance class="exe.engine.node.Node" reference="7">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="T01 - Introducción al protocolo MIDI"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="2">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="5">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Introducción"></unicode>
@@ -182,12 +310,12 @@ Lima - Perú"></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="3">
+            <instance class="exe.engine.field.TextAreaField" reference="6">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="109_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="2"></reference>
+              <reference key="5"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -224,7 +352,7 @@ Lima - Perú"></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="3"></reference>
+                <reference key="6"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -232,7 +360,7 @@ Lima - Perú"></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="4"></reference>
+              <reference key="7"></reference>
              </dictionary>
             </instance>
            </list>
@@ -249,7 +377,7 @@ Lima - Perú"></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -264,7 +392,7 @@ Lima - Perú"></unicode>
         <string role="key" value="_id"></string>
         <unicode value="1"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -274,18 +402,18 @@ Lima - Perú"></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="8">
+         <instance class="exe.engine.node.Node" reference="10">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Conversión de números de 4 bits"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Convertir números de hexadecimal a decimal de 4 bits (un nibble o un dígito hexadecimal)"></unicode>
@@ -344,12 +472,12 @@ Lima - Perú"></unicode>
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="7">
+               <instance class="exe.engine.field.TextAreaField" reference="9">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="110_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="6"></reference>
+                 <reference key="8"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -405,12 +533,12 @@ Lima - Perú"></unicode>
                       <string role="key" value="_id"></string>
                       <unicode value="1_110_2.3"></unicode>
                       <string role="key" value="_imageResource"></string>
-                      <instance class="exe.engine.resource.Resource" reference="9">
+                      <instance class="exe.engine.resource.Resource" reference="11">
                        <dictionary>
                         <string role="key" value="_idevice"></string>
-                        <reference key="6"></reference>
+                        <reference key="8"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="1"></reference>
+                        <reference key="4"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="01.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -426,7 +554,7 @@ Lima - Perú"></unicode>
                        </dictionary>
                       </instance>
                       <string role="key" value="_parent"></string>
-                      <reference key="7"></reference>
+                      <reference key="9"></reference>
                       <string role="key" value="_thumbnailResource"></string>
                       <none></none>
                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -457,12 +585,12 @@ Lima - Perú"></unicode>
                       <string role="key" value="_id"></string>
                       <unicode value="1_110_2.4"></unicode>
                       <string role="key" value="_imageResource"></string>
-                      <instance class="exe.engine.resource.Resource" reference="10">
+                      <instance class="exe.engine.resource.Resource" reference="12">
                        <dictionary>
                         <string role="key" value="_idevice"></string>
-                        <reference key="6"></reference>
+                        <reference key="8"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="1"></reference>
+                        <reference key="4"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="02_hexdec.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -478,7 +606,7 @@ Lima - Perú"></unicode>
                        </dictionary>
                       </instance>
                       <string role="key" value="_parent"></string>
-                      <reference key="7"></reference>
+                      <reference key="9"></reference>
                       <string role="key" value="_thumbnailResource"></string>
                       <none></none>
                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -509,12 +637,12 @@ Lima - Perú"></unicode>
                       <string role="key" value="_id"></string>
                       <unicode value="1_110_2.5"></unicode>
                       <string role="key" value="_imageResource"></string>
-                      <instance class="exe.engine.resource.Resource" reference="11">
+                      <instance class="exe.engine.resource.Resource" reference="13">
                        <dictionary>
                         <string role="key" value="_idevice"></string>
-                        <reference key="6"></reference>
+                        <reference key="8"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="1"></reference>
+                        <reference key="4"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="07_HEX_DEC_MANO.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -530,7 +658,7 @@ Lima - Perú"></unicode>
                        </dictionary>
                       </instance>
                       <string role="key" value="_parent"></string>
-                      <reference key="7"></reference>
+                      <reference key="9"></reference>
                       <string role="key" value="_thumbnailResource"></string>
                       <none></none>
                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -541,7 +669,7 @@ Lima - Perú"></unicode>
                     </instance>
                    </list>
                    <string role="key" value="idevice"></string>
-                   <reference key="7"></reference>
+                   <reference key="9"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -549,7 +677,7 @@ Lima - Perú"></unicode>
                  <string role="key" value="nextImageId"></string>
                  <int value="6"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="8"></reference>
+                 <reference key="10"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -566,218 +694,21 @@ Lima - Perú"></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="8"></reference>
+              <reference key="10"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="userResources"></string>
               <list>
-               <reference key="9"></reference>
-               <reference key="10"></reference>
                <reference key="11"></reference>
+               <reference key="12"></reference>
+               <reference key="13"></reference>
               </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Actividad"></unicode>
-              <string role="key" value="_attributes"></string>
-              <list>
-               <tuple>
-                <string value="title"></string>
-                <list>
-                 <string value="Title"></string>
-                 <int value="0"></int>
-                 <int value="0"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="category"></string>
-                <list>
-                 <string value="Category"></string>
-                 <int value="0"></int>
-                 <int value="1"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="css-class"></string>
-                <list>
-                 <string value="CSS class"></string>
-                 <int value="0"></int>
-                 <int value="2"></int>
-                </list>
-               </tuple>
-               <tuple>
-                <string value="icon"></string>
-                <list>
-                 <string value="Icon"></string>
-                 <int value="0"></int>
-                 <int value="3"></int>
-                </list>
-               </tuple>
-              </list>
-              <string role="key" value="_author"></string>
-              <string value=""></string>
-              <string role="key" value="_iDeviceDir"></string>
-              <string value="text"></string>
-              <string role="key" value="_purpose"></string>
-              <string value=""></string>
-              <string role="key" value="_tip"></string>
-              <string value=""></string>
-              <string role="key" value="_valid"></string>
-              <bool value="1"></bool>
-              <string role="key" value="class_"></string>
-              <unicode value="text"></unicode>
-              <string role="key" value="edit"></string>
-              <bool value="0"></bool>
-              <string role="key" value="emphasis"></string>
-              <int value="1"></int>
-              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-              <int value="1"></int>
-              <string role="key" value="fields"></string>
-              <list>
-               <instance class="exe.engine.field.TextAreaField" reference="13">
-                <dictionary>
-                 <string role="key" value="_id"></string>
-                 <unicode value="109_2"></unicode>
-                 <string role="key" value="_idevice"></string>
-                 <reference key="12"></reference>
-                 <string role="key" value="_instruc"></string>
-                 <string value=""></string>
-                 <string role="key" value="_name"></string>
-                 <string value=""></string>
-                 <string role="key" value="anchor_names"></string>
-                 <list></list>
-                 <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Practica esta habilidad desarrollada en clase:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
-                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                 <int value="4"></int>
-                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                 <int value="2"></int>
-                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                 <int value="3"></int>
-                 <string role="key" value="htmlTag"></string>
-                 <string value="div"></string>
-                 <string role="key" value="images"></string>
-                 <instance class="exe.engine.galleryidevice.GalleryImages">
-                  <dictionary>
-                   <string role="key" value=".listitems"></string>
-                   <list></list>
-                   <string role="key" value="idevice"></string>
-                   <reference key="13"></reference>
-                  </dictionary>
-                 </instance>
-                 <string role="key" value="intlinks_to_anchors"></string>
-                 <dictionary></dictionary>
-                 <string role="key" value="nextImageId"></string>
-                 <int value="0"></int>
-                 <string role="key" value="parentNode"></string>
-                 <none></none>
-                </dictionary>
-               </instance>
-              </list>
-              <string role="key" value="icon"></string>
-              <unicode value=""></unicode>
-              <string role="key" value="id"></string>
-              <unicode value="2"></unicode>
-              <string role="key" value="ideviceCategory"></string>
-              <unicode value="Text and Tasks"></unicode>
-              <string role="key" value="lastIdevice"></string>
-              <bool value="0"></bool>
-              <string role="key" value="nextFieldId"></string>
-              <int value="3"></int>
-              <string role="key" value="originalicon"></string>
-              <string value=""></string>
-              <string role="key" value="parentNode"></string>
-              <reference key="8"></reference>
-              <string role="key" value="systemResources"></string>
-              <list></list>
-              <string role="key" value="undo"></string>
-              <bool value="1"></bool>
-              <string role="key" value="userResources"></string>
-              <list></list>
-              <string role="key" value="version"></string>
-              <int value="0"></int>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="External Web Site"></unicode>
-              <string role="key" value="_author"></string>
-              <unicode value="University of Auckland"></unicode>
-              <string role="key" value="_purpose"></string>
-              <unicode value="The external website iDevice loads an external website 
-into an inline frame in your eXe content rather then opening it in a popup box. 
-This means learners are not having to juggle windows. 
-This iDevice should only be used if your content 
-will be viewed by learners online."></unicode>
-              <string role="key" value="_tip"></string>
-              <string value=""></string>
-              <string role="key" value="_urlInstruc"></string>
-              <unicode value="Enter the URL you wish to display
-and select the size of the area to display it in."></unicode>
-              <string role="key" value="edit"></string>
-              <bool value="0"></bool>
-              <string role="key" value="emphasis"></string>
-              <int value="0"></int>
-              <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
-              <int value="3"></int>
-              <string role="key" value="height"></string>
-              <unicode value="500"></unicode>
-              <string role="key" value="icon"></string>
-              <string value=""></string>
-              <string role="key" value="id"></string>
-              <unicode value="3"></unicode>
-              <string role="key" value="lastIdevice"></string>
-              <bool value="0"></bool>
-              <string role="key" value="originalicon"></string>
-              <string value=""></string>
-              <string role="key" value="parentNode"></string>
-              <reference key="8"></reference>
-              <string role="key" value="systemResources"></string>
-              <list></list>
-              <string role="key" value="undo"></string>
-              <bool value="1"></bool>
-              <string role="key" value="url"></string>
-              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/01_Conversiones_hex_a_dec_1/index.html"></unicode>
-              <string role="key" value="userResources"></string>
-              <list></list>
-              <string role="key" value="version"></string>
-              <int value="0"></int>
-             </dictionary>
-            </instance>
-           </list>
-           <string role="key" value="_id"></string>
-           <unicode value="2"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:Conversi%C3%B3n%20de%20n%C3%BAmeros%20de%204%20bits"></string>
-           <string role="key" value="parent"></string>
-           <reference key="4"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="16">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Descifra/Cifra un canal MIDI en un byte de estado MIDI."></unicode>
-           <string role="key" value="idevices"></string>
-           <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
              <dictionary>
               <string role="key" value="_title"></string>
@@ -840,7 +771,7 @@ and select the size of the area to display it in."></unicode>
                <instance class="exe.engine.field.TextAreaField" reference="15">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="111_2"></unicode>
+                 <unicode value="109_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="14"></reference>
                  <string role="key" value="_instruc"></string>
@@ -850,8 +781,7 @@ and select the size of the area to display it in."></unicode>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Una aplicación sencilla de lo desarrollado anteriormente lo veremos a continuación:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Se mostrará distintos bytes de estado MIDI y tendrás que escribir a qué canal están referidos...&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Practica esta habilidad desarrollada en clase:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -881,7 +811,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="4"></unicode>
+              <unicode value="2"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -891,7 +821,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="16"></reference>
+              <reference key="10"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -930,26 +860,53 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="icon"></string>
               <string value=""></string>
               <string role="key" value="id"></string>
-              <unicode value="5"></unicode>
+              <unicode value="3"></unicode>
               <string role="key" value="lastIdevice"></string>
               <bool value="0"></bool>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="16"></reference>
+              <reference key="10"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="url"></string>
-              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/0102_Descifra_el_canal_en_status/"></unicode>
+              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/01_Conversiones_hex_a_dec_1/index.html"></unicode>
               <string role="key" value="userResources"></string>
               <list></list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="17">
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:Conversi%C3%B3n%20de%20n%C3%BAmeros%20de%204%20bits"></string>
+           <string role="key" value="parent"></string>
+           <reference key="7"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Descifra/Cifra un canal MIDI en un byte de estado MIDI."></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Actividad"></unicode>
@@ -1008,12 +965,12 @@ and select the size of the area to display it in."></unicode>
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="18">
+               <instance class="exe.engine.field.TextAreaField" reference="17">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="113_2"></unicode>
+                 <unicode value="111_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="17"></reference>
+                 <reference key="16"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1021,9 +978,8 @@ and select the size of the area to display it in."></unicode>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Un reto de mayor cuidado será el presente: Cómo traduces el siguiente byte de estado MIDI a hexadecimal.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt; color: #ff0000;&quot;&gt;Recuerda que al número de canal, decimal, debes quitarle 1. Ejemplo &lt;span style=&quot;color: #0000ff;&quot;&gt;9&lt;/span&gt; =&amp;gt; Canal &lt;span style=&quot;color: #0000ff;&quot;&gt;8&lt;/span&gt;h&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;No es necesario ingresar la letra &quot;h&quot; en este ejercicio y da igual mayúscula o minúscula...&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Una aplicación sencilla de lo desarrollado anteriormente lo veremos a continuación:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Se mostrará distintos bytes de estado MIDI y tendrás que escribir a qué canal están referidos...&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1038,7 +994,7 @@ and select the size of the area to display it in."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="18"></reference>
+                   <reference key="17"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1053,7 +1009,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="6"></unicode>
+              <unicode value="4"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -1063,7 +1019,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="16"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1102,52 +1058,25 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="icon"></string>
               <string value=""></string>
               <string role="key" value="id"></string>
-              <unicode value="7"></unicode>
+              <unicode value="5"></unicode>
               <string role="key" value="lastIdevice"></string>
               <bool value="0"></bool>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="16"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="url"></string>
-              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/0103_Cifrar_MIDI_Status_byte/index.html"></unicode>
+              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/0102_Descifra_el_canal_en_status/"></unicode>
               <string role="key" value="userResources"></string>
               <list></list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
-           </list>
-           <string role="key" value="_id"></string>
-           <unicode value="3"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:Descifra/Cifra%20un%20canal%20MIDI%20en%20un%20byte%20de%20estado%20MIDI."></string>
-           <string role="key" value="parent"></string>
-           <reference key="4"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="21">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Número de notas MIDI"></unicode>
-           <string role="key" value="idevices"></string>
-           <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="19">
              <dictionary>
               <string role="key" value="_title"></string>
@@ -1210,7 +1139,7 @@ and select the size of the area to display it in."></unicode>
                <instance class="exe.engine.field.TextAreaField" reference="20">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="115_2"></unicode>
+                 <unicode value="113_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="19"></reference>
                  <string role="key" value="_instruc"></string>
@@ -1220,8 +1149,9 @@ and select the size of the area to display it in."></unicode>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;En el ejercicio de tu profesión encontrarás controladores tipo &quot;pads&quot; que el usuario le ha cambiado la programación o baterías electrónicas donde los &quot;pads&quot; no corresponden con una biblioteca de muestras.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;En el protocolo MIDI &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;la nota Do&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt; &lt;strong&gt;central &lt;/strong&gt;&lt;span style=&quot;color: #000000;&quot;&gt;es la nota MIDI número&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt; 60 &lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;(decimal), &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;sabiendo eso resuelve el siguiente cuestionario.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Un reto de mayor cuidado será el presente: Cómo traduces el siguiente byte de estado MIDI a hexadecimal.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt; color: #ff0000;&quot;&gt;Recuerda que al número de canal, decimal, debes quitarle 1. Ejemplo &lt;span style=&quot;color: #0000ff;&quot;&gt;9&lt;/span&gt; =&amp;gt; Canal &lt;span style=&quot;color: #0000ff;&quot;&gt;8&lt;/span&gt;h&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;No es necesario ingresar la letra &quot;h&quot; en este ejercicio y da igual mayúscula o minúscula...&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1251,7 +1181,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="8"></unicode>
+              <unicode value="6"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -1261,7 +1191,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="21"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1300,19 +1230,19 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="icon"></string>
               <string value=""></string>
               <string role="key" value="id"></string>
-              <unicode value="9"></unicode>
+              <unicode value="7"></unicode>
               <string role="key" value="lastIdevice"></string>
               <bool value="0"></bool>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="21"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="url"></string>
-              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/0104_Encuentra_el_Do"></unicode>
+              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/0103_Cifrar_MIDI_Status_byte/index.html"></unicode>
               <string role="key" value="userResources"></string>
               <list></list>
               <string role="key" value="version"></string>
@@ -1321,9 +1251,9 @@ and select the size of the area to display it in."></unicode>
             </instance>
            </list>
            <string role="key" value="_id"></string>
-           <unicode value="4"></unicode>
+           <unicode value="3"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1331,22 +1261,22 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:N%C3%BAmero%20de%20notas%20MIDI"></string>
+           <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:Descifra/Cifra%20un%20canal%20MIDI%20en%20un%20byte%20de%20estado%20MIDI."></string>
            <string role="key" value="parent"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="24">
+         <instance class="exe.engine.node.Node" reference="23">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Cifra/Descifra Note On / Off"></unicode>
+           <unicode value="Número de notas MIDI"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="22">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="21">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Actividad"></unicode>
@@ -1405,12 +1335,210 @@ and select the size of the area to display it in."></unicode>
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="23">
+               <instance class="exe.engine.field.TextAreaField" reference="22">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="115_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="21"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;En el ejercicio de tu profesión encontrarás controladores tipo &quot;pads&quot; que el usuario le ha cambiado la programación o baterías electrónicas donde los &quot;pads&quot; no corresponden con una biblioteca de muestras.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;En el protocolo MIDI &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;la nota Do&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt; &lt;strong&gt;central &lt;/strong&gt;&lt;span style=&quot;color: #000000;&quot;&gt;es la nota MIDI número&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt; 60 &lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;(decimal), &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;sabiendo eso resuelve el siguiente cuestionario.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="22"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <none></none>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="8"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="23"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="External Web Site"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The external website iDevice loads an external website 
+into an inline frame in your eXe content rather then opening it in a popup box. 
+This means learners are not having to juggle windows. 
+This iDevice should only be used if your content 
+will be viewed by learners online."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_urlInstruc"></string>
+              <unicode value="Enter the URL you wish to display
+and select the size of the area to display it in."></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="height"></string>
+              <unicode value="500"></unicode>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="9"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="23"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="url"></string>
+              <unicode value="https://f0h.github.io/Cuestionarios/03_TECMUS_2/0104_Encuentra_el_Do"></unicode>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:N%C3%BAmero%20de%20notas%20MIDI"></string>
+           <string role="key" value="parent"></string>
+           <reference key="7"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="26">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Cifra/Descifra Note On / Off"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="24">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Actividad"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="25">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="117_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="22"></reference>
+                 <reference key="24"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1434,7 +1562,7 @@ and select the size of the area to display it in."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="23"></reference>
+                   <reference key="25"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1459,7 +1587,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="26"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1504,7 +1632,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="26"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1551,7 +1679,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="26"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1568,7 +1696,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="_id"></string>
            <unicode value="5"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1578,20 +1706,20 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:Cifra/Descifra%20Note%20On%20/%20Off"></string>
            <string role="key" value="parent"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="27">
+         <instance class="exe.engine.node.Node" reference="29">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Actividad de resumen"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="25">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="27">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Actividad de resumen"></unicode>
@@ -1650,12 +1778,12 @@ and select the size of the area to display it in."></unicode>
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="26">
+               <instance class="exe.engine.field.TextAreaField" reference="28">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="120_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="25"></reference>
+                 <reference key="27"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1680,7 +1808,7 @@ and select the size of the area to display it in."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="26"></reference>
+                   <reference key="28"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1705,7 +1833,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="27"></reference>
+              <reference key="29"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1750,7 +1878,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="27"></reference>
+              <reference key="29"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1763,7 +1891,7 @@ and select the size of the area to display it in."></unicode>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.fileattachidevice.FileAttachIdeviceInc" reference="28">
+            <instance class="exe.engine.fileattachidevice.FileAttachIdeviceInc" reference="30">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Llévatelo y practica camino a casa..."></unicode>
@@ -1781,12 +1909,12 @@ and select the size of the area to display it in."></unicode>
               <int value="2"></int>
               <string role="key" value="fileAttachmentFields"></string>
               <list>
-               <instance class="exe.engine.extendedfieldengine.FileField" reference="29">
+               <instance class="exe.engine.extendedfieldengine.FileField" reference="31">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <int value="83"></int>
                  <string role="key" value="_idevice"></string>
-                 <reference key="28"></reference>
+                 <reference key="30"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value="File Field Help"></string>
                  <string role="key" value="_name"></string>
@@ -1803,7 +1931,7 @@ and select the size of the area to display it in."></unicode>
                    <string role="key" value="_id"></string>
                    <int value="84"></int>
                    <string role="key" value="_idevice"></string>
-                   <reference key="29"></reference>
+                   <reference key="31"></reference>
                    <string role="key" value="_instruc"></string>
                    <string value=""></string>
                    <string role="key" value="_name"></string>
@@ -1817,12 +1945,12 @@ and select the size of the area to display it in."></unicode>
                  <string role="key" value="fileInstruc"></string>
                  <string value="Upload a file"></string>
                  <string role="key" value="fileResource"></string>
-                 <instance class="exe.engine.resource.Resource" reference="31">
+                 <instance class="exe.engine.resource.Resource" reference="33">
                   <dictionary>
                    <string role="key" value="_idevice"></string>
-                   <reference key="28"></reference>
+                   <reference key="30"></reference>
                    <string role="key" value="_package"></string>
-                   <reference key="1"></reference>
+                   <reference key="4"></reference>
                    <string role="key" value="_storageName"></string>
                    <string value="S01_notacion_en_Lenguaje_MIDI.zip"></string>
                    <string role="key" value="_userName"></string>
@@ -1847,12 +1975,12 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="id"></string>
               <unicode value="15"></unicode>
               <string role="key" value="introHTML"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="30">
+              <instance class="exe.engine.field.TextAreaField" reference="32">
                <dictionary>
                 <string role="key" value="_id"></string>
                 <int value="82"></int>
                 <string role="key" value="_idevice"></string>
-                <reference key="28"></reference>
+                <reference key="30"></reference>
                 <string role="key" value="_instruc"></string>
                 <string value="Instructions"></string>
                 <string role="key" value="_name"></string>
@@ -1880,7 +2008,7 @@ and select the size of the area to display it in."></unicode>
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="30"></reference>
+                  <reference key="32"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="intlinks_to_anchors"></string>
@@ -1898,14 +2026,14 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="27"></reference>
+              <reference key="29"></reference>
               <string role="key" value="showDesc"></string>
               <instance class="exe.engine.extendedfieldengine.ChoiceField">
                <dictionary>
                 <string role="key" value="_id"></string>
                 <int value="81"></int>
                 <string role="key" value="_idevice"></string>
-                <reference key="28"></reference>
+                <reference key="30"></reference>
                 <string role="key" value="_instruc"></string>
                 <string value="Show Description"></string>
                 <string role="key" value="_name"></string>
@@ -1935,7 +2063,7 @@ and select the size of the area to display it in."></unicode>
               <bool value="0"></bool>
               <string role="key" value="userResources"></string>
               <list>
-               <reference key="31"></reference>
+               <reference key="33"></reference>
               </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
@@ -1945,7 +2073,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="_id"></string>
            <unicode value="6"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1955,7 +2083,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:Tecnolog%C3%ADa%20Musical%20II:T01%20-%20Introducci%C3%B3n%20al%20protocolo%20MIDI:Actividad%20de%20resumen"></string>
            <string role="key" value="parent"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -1969,17 +2097,17 @@ and select the size of the area to display it in."></unicode>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="4"></reference>
+   <reference key="7"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="8"></reference>
+   <reference key="10"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="16"></reference>
+   <reference key="18"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="21"></reference>
+   <reference key="23"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="24"></reference>
+   <reference key="26"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="27"></reference>
+   <reference key="29"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -1990,7 +2118,7 @@ and select the size of the area to display it in."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="5"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3028,23 +3156,23 @@ Lima - Perú"></unicode>
   <dictionary>
    <string role="key" value="4212d647faa39f7b09cffe38295d64a5"></string>
    <list>
-    <reference key="10"></reference>
+    <reference key="12"></reference>
    </list>
    <string role="key" value="664bfd17e80d75231fd9b7fb92c00eb4"></string>
    <list>
-    <reference key="31"></reference>
+    <reference key="33"></reference>
    </list>
    <string role="key" value="6eb4cd55b1bc5244233e54ccb17c391c"></string>
    <list>
-    <reference key="9"></reference>
+    <reference key="11"></reference>
    </list>
    <string role="key" value="edb762ae5aaf74f11a1f7257d36d67d0"></string>
    <list>
-    <reference key="11"></reference>
+    <reference key="13"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
-  <reference key="5"></reference>
+  <reference key="3"></reference>
   <string role="key" value="scolinks"></string>
   <bool value="0"></bool>
   <string role="key" value="scowsinglepage"></string>
